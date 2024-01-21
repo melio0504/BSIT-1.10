@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+ 
+p {
+    text-align: justify;
+} 
+
+nav {
+    padding: 0;
+    background-size: contain;
+    height: 150px; 
+  }
+  
+nav, .slider{ 
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    background-image: url("https://th.bing.com/th/id/R.38d1eb6dc68f5c775c4eb3db5ae082b9?rik=bARYNW%2bdpY6X1Q&riu=http%3a%2f%2f2.bp.blogspot.com%2f-sL1n6AVXRhM%2fUv-MPP2xN5I%2fAAAAAAAAXqw%2fpTe28jPZ2cY%2fs1600%2fWallpapers-room_com___Black_Background_Set_Wood_3_by_iAmFreeman_1920x1200.jpg&ehk=C5g%2bjW7bz9jcxmi3FWt3tQv7RROtjfWggo19oQ0eMzo%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .navLogo {
+    width: 150px;
+    height: auto;
+    padding-left: 20px;
+  }
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+    margin-left: 150px;
+    bottom: 8px;
+    position: relative;
+  }
+
+.heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1 {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+.heading h1::after{
+    content: "";
+    position:absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4caf50;
+}
+.heading p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10 px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image:hover img{
+    transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+
+footer {
+  display: flex;
+  
+}
+
+.footerLeft {
+  flex: 1.5;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+  color: #0A5C36;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 15px;
+  color: #588157;
+  cursor: pointer;
+}
+
+a {
+  color: #588157; /* Default link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:visited {
+  color: #588157; /* Color for visited links */
+}
+
+.footerRight {
+  flex: 2;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons{
+  display: flex;
+}
+
+.fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright{
+  font-weight: 300;
+  font-size: 14px;
+}
